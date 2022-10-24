@@ -1,4 +1,4 @@
-function calculadoraPA(vi, r){ // valor inical , raiz
+const calculadoraPA = (vi, r)=>{ // valor inical , raiz
     let sequencia = []
     sequencia.push(vi)
     for (var i = 0; i<9; i++){

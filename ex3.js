@@ -6,7 +6,7 @@
 
 O número para realizar a tabuada deve ser solicitado via prompt e o resultado apresentado via alert.*/
 
-function exibeTabuada(num){
+const  exibeTabuada = (num) =>{
     let tabuada = []
     for (var i = 0; i<11; i++){
         tabuada.push(num+' x '+i+' = '+i*num)

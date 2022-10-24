@@ -5,7 +5,7 @@ Adultos - Indivíduos com idade entre 16 até 64 anos;
 Idosos - Indivíduos de 65 anos em diante.
 */
 
-function classificaIdade(idade){
+const classificaIdade = (idade) => {
     if (idade <= 15){
         return ("Jovem")
     } else if ((idade > 15)&& (idade < 65)){

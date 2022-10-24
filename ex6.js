@@ -6,7 +6,7 @@
 Em seguida, realize o cálculo e exiba na tela um “alert” contendo o texto “O resultado do seu cálculo é: X”, onde X é o resultado final do cálculo solicitado pelo usuário.*/
 
 
-function calculadora(op,n1,n2){
+const calculadora = (op,n1,n2) =>{
 
     switch (op) {
         case '+':

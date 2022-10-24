@@ -6,7 +6,7 @@ Considere:
 - 22/09 a 21/12 - Primavera.*/
 
 
-function defineEstacao(dia,mes){
+const defineEstacao = (dia,mes)=>{
     if (((dia > 21) && (mes == 12)) || ((dia < 22) && (mes == 3))|| (mes <= 2)){
         return ('Verão')
     }else if ((((dia > 21) && (mes == 3)) || ((dia < 22) && (mes == 6))|| (mes <= 5))){
@@ -24,5 +24,5 @@ let dia = String(hoje.getDate()).padStart(2, '0');
 let mes = String(hoje.getMonth() + 1).padStart(2, '0');
 alert ('Estação atual: '+defineEstacao(dia,mes))
 
-02,06
+
 

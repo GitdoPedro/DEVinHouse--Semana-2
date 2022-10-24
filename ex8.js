@@ -1,7 +1,7 @@
 /*Percorra os números de o a 1000 e exiba no console os números primos e ao final a quantidade de números primos que existem nesse intervalo.*/
 
 
-function definePrimo(n){
+const definePrimo = (n) =>{
     let contador = 0
     if (n == 1){return true}
     else{
@@ -15,7 +15,7 @@ function definePrimo(n){
 }}
 
 
-function contaNumerosPrimos(repeticoes){
+const contaNumerosPrimos = (repeticoes)=>{
     let contador = 0
     for (var i = 1 ; i<= repeticoes ; i++){
         if (definePrimo(i)){

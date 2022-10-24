@@ -2,7 +2,7 @@
 Calcule o número de pares e impares e exiba o resultado utilizando um alert.*/
 
 
-function calculaParEImpar(n){
+const calculaParEImpar = (n) =>{
     let impar = 0
     let par   = 0
     let resultado = []
