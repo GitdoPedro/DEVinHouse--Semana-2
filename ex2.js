@@ -6,12 +6,13 @@ Idosos - Indivíduos de 65 anos em diante.
 */
 
 const classificaIdade = (idade) => {
+    const classicacaoEtaria = ["Jovem","Adulto","Idoso"]
     if (idade <= 15){
-        return ("Jovem")
+        return (classicacaoEtaria[0])
     } else if ((idade > 15)&& (idade < 65)){
-        return ("Adulto")
+        return (classicacaoEtaria[1])
     }else{
-        return("Idoso")
+        return(classicacaoEtaria[2])
     }
 } 
 
